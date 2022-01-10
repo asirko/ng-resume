@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "f45234ad-b5ee-402b-967f-a39978528e84"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -8,11 +11,17 @@
       "schematics": {
         "@schematics/angular:application": {
           "strict": true
+        },
+        "@schematics/angular:component": {
+          "changeDetection": "OnPush",
+          "displayBlock": true,
+          "flat": true,
+          "skipTests": true
         }
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "resume",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
