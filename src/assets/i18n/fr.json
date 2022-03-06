@@ -1,1 +1,147 @@
-{}
+{
+  "header": {
+    "presentation": "Présentation",
+    "about": "À propos",
+    "education": "Formations",
+    "experience": "Expériences",
+    "skill": "Compétences",
+    "interest": "Intérêt"
+  },
+  "presentation": {
+    "hello": "Bonjour, moi c'est",
+    "titleShort": "Développeur JavaScript Fullstack",
+    "title": "Développeur JavaScript Fullstack avec un penchant pour le Front-End",
+    "portraitTitle": "Mon portrait",
+    "download": "Télécharger le CV"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "subtitle": "Ma motivation",
+    "text": "<p>Ayant effleuré le monde du développement pendant mes études, j'y ai trouvé un terrain de jeu. Encore aujourd'hui, je m'amuse à jongler avec les lignes de code.</p><p>Je suis tombé d'abord dans le monde Java où j'ai énormément appris accompagné par des personnes de la vieille école. Et je continue de penser que le stylo et le papier sont les meilleurs outils pour commencer une fonctionnalité.</p><p>Par la suite et malgré la réticence de collègues qui ont vécu la chute de Netscape, je me suis engouffré dans JavaScript. Naturellement, j'ai commencé par le Front-End avec des frameworks comme AngularJS et Backbone pour ensuite me concentrer sur Angular 2. Plus récemment, j'ai redécouvert le confort du développement fullstack principalement autour des mono-repos Nx avec NestJS et Angular.</p>"
+  },
+  "education": {
+    "title": "Mes études",
+    "subtitle": "Ce que j'ai appris",
+    "studies": [
+      {
+        "period": "2009-2013",
+        "name": "Diplôme d’ingénieur de l’école des Mines d’Albi en Gestion des Systèmes d’Information",
+        "description": "Formation d'ingénieur généraliste avec une spécialité en conception, gestion, développement et architecture de système d'information"
+      },
+      {
+        "period": "Mars - Août 2013",
+        "name": "Master thesis à KTH sur l’urbanisme de systèmes d’information",
+        "description": "Application de l'\u00ab\u00a0hidden structure method\u00a0\u00bb développé à Harvard pour analyser la structure d'organisations"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Mes expériences",
+    "subtitle": "Où j'ai travaillé",
+    "companies": [
+      {
+        "period": "Depuis 2018",
+        "name": "Jump",
+        "job": "Développeur Front-End sénior et développeur Fullstack JS",
+        "missions": [
+          {
+            "name": "Plateforme 3D",
+            "duration": "6 mois",
+            "description": "Plateforme de formation illustrant le parcours de l'apprenant au travers d'éléments en 3 dimensions (ex : les continents d'un globe représente les programmes de formations, une petite ville représente un parcours de formations)",
+            "skills": [
+              "Angular",
+              "ThreeJS",
+              "NestJS",
+              "API Rest",
+              "Mono-Repo",
+              "TypeORM",
+              "PostgreSQL",
+              "Cloud Foundry",
+              "Angular Animation"
+            ]
+          },
+          {
+            "name": "Freelup",
+            "duration": "6 mois",
+            "description": "Plateforme de mise en relation entre des expert indépendant de la logistique et des entreprises cherchant des prestataires.",
+            "skills": ["Angular", "NestJS", "API Rest", "Mono-Repo", "TypeORM", "PostgreSQL"]
+          },
+          {
+            "name": "Storiz",
+            "duration": "18 mois",
+            "description": "Plateforme Sass d'édition de contenu pédagogique reprenant l'expertise accumulé par l'entreprise des outils de formation.",
+            "skills": ["Angular", "API Rest", "Mono-Repo", "Scrum Master", "BPMN"]
+          },
+          {
+            "name": "Escape-Game",
+            "duration": "3 mois",
+            "description": "Développement d'un nouveau jeu, l'Escape-Game. Un « point & click » immergeant l'apprenant dans un contexte complexe et exigeant de réaliser plusieurs missions en lien avec sa formation pour sortir.",
+            "skills": ["Angular", "Mono-Repo", "RWD", "Lottie"]
+          },
+          {
+            "name": "Refonte des mini-jeux",
+            "duration": "4 mois",
+            "description": "Refonte de mini-jeux dédié à l'accompagnement pédagogique. Les jeux partageant énormément de code en commun, ils ont été regroupés dans un mono-repo.",
+            "skills": ["Angular", "Mono-Repo", "RWD"]
+          },
+          {
+            "name": "Anie",
+            "duration": "9 mois",
+            "description": "Développement d'une application web et mobile pour permettre aux apprentis de la région Occitanie de trouver des entreprise d'apprentissage.",
+            "skills": ["Angular", "API Rest", "RWD", "PWA", "Cordova", "NgRx"]
+          }
+        ]
+      },
+      {
+        "period": "2014 - 2018",
+        "name": "Sopra Steria",
+        "job": "Développeur Java et JavaScript",
+        "missions": [
+          {
+            "name": "Daïki",
+            "duration": "9 mois",
+            "description": "Catalogue d'une partie des données d'EDF. Différentes technologies de base de données (SQL, HBase, Hive, ELK, MS BI,...) étaient scannées pour lister les schémas et tables, une analyse statistique était également effectué. Le tout était stocké dans un cluster Elastic pour créer un moteur de recherche des données",
+            "skills": ["Angular", "Elastic", "Java"]
+          },
+          {
+            "name": "Pnds",
+            "duration": "8 mois",
+            "description": "Front-end d'une plateforme de consultation générique des droits sociaux (développé par Agora pour le compte de la sécurité sociale)",
+            "skills": ["Backbone JS", "API Rest"]
+          },
+          {
+            "name": "AGIL’APPRO",
+            "duration": "10 mois",
+            "description": "Application de crédit court terme spécialisé dans le domaine agricole.",
+            "skills": ["Java", "JSF", "Scss", "PrimeFaces"]
+          },
+          {
+            "name": "PidiTools",
+            "duration": "3 mois",
+            "description": "Application d'aide à la décision pour les techniciens télécom",
+            "skills": ["AngularJS", "TUA", "Bootstrap"]
+          },
+          {
+            "name": "Cariparma",
+            "duration": "9 mois",
+            "description": "Traduction en italien et évolutions sur la base d'une application legacy du crédit agricole",
+            "skills": ["Java", "Struts 1"]
+          }
+        ]
+      },
+      {
+        "period": "2013 - 2014",
+        "name": "Laboratoire GIPSI des Mines d'Albi",
+        "job": "Ingénieur de recherche",
+        "missions": [
+          {
+            "name": "Axe IO",
+            "duration": "12 mois",
+            "description": "Récolte d'information pour aider la prise de décision en contexte de crise humanitaire",
+            "skills": ["Analyse d'article", "API Twitter", "EDA", "BPMN"]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+@import '@fontsource/lato';
+@import '@fontsource/lilita-one';
+@import '@fontsource/playfair-display';
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+  font-family: Lato;
+}
+body {
+  font-size: 1.6rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #5569dc;
+  --primary-light: #eef0fb;
+  --primary-dark: #262673;
+  --text-light: #fff;
+  --text-grey: #aaa;
+}
+
+h3 {
+  margin-bottom: 17px;
+  color: var(--primary);
+  font-size: 2em;
+  font-family: 'Playfair Display';
+  font-style: italic;
+}
+h4 {
+  margin-bottom: 54px;
+  color: var(--primary);
+  font-family: Lato;
+  font-weight: 100;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+p {
+  color: var(--primary-dark);
+  margin: 1.5em 0;
+  line-height: 2em;
+}
+
+main > *:not(:first-child) {
+  padding: 83px;
+
+  & > * {
+    max-width: calc(50rem * 1.6);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

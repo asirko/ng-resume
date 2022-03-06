@@ -1,0 +1,25 @@
+<ng-container *transloco="let t">
+  <div class="left">
+    <div class="greetings">
+      <div class="hello">{{ t('presentation.hello') }}</div>
+      <div class="name">Alexandre Sirko</div>
+      <div class="job-title">{{ t('presentation.titleShort') }}</div>
+    </div>
+  </div>
+  <div class="right">
+    <div class="portrait">
+      <img src="../../assets/images/portrait.png" [alt]="t('presentation.portraitTitle')" />
+    </div>
+    <div class="name">Alexandre Sirko</div>
+    <div class="description">
+      <div class="job-title">{{ t('presentation.title') }}</div>
+      <div class="location">Toulouse, France</div>
+    </div>
+    <div class="contact">
+      <div class="email"><a href="mailto:sirko.alexandre@gmail.com">sirko.alexandre@gmail.com</a></div>
+      <div class="phone"><a href="tel:+33609449501">+33&nbsp;6&nbsp;09&nbsp;44&nbsp;95&nbsp;01</a></div>
+    </div>
+    <div class="socials">TODO</div>
+    <button class="print">{{ t('presentation.download') }}</button>
+  </div>
+</ng-container>

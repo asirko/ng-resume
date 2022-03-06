@@ -1,0 +1,23 @@
+<ng-container *transloco="let t">
+  <header>
+    <nav>
+      <a href="#presentation">{{ t('header.presentation') }}</a>
+      <a href="#about">{{ t('header.about') }}</a>
+      <a href="#education">{{ t('header.education') }}</a>
+      <a href="#experience">{{ t('header.experience') }}</a>
+      <a href="#skill">{{ t('header.skill') }}</a>
+      <a href="#interest">{{ t('header.interest') }}</a>
+    </nav>
+  </header>
+
+  <main>
+    <resume-presentation id="presentation"></resume-presentation>
+    <resume-about id="about"></resume-about>
+    <resume-education id="education"></resume-education>
+    <resume-experience id="experience"></resume-experience>
+    <resume-skill id="skill"></resume-skill>
+    <resume-interest id="interest"></resume-interest>
+  </main>
+
+  <footer></footer>
+</ng-container>

@@ -1,0 +1,17 @@
+:host {
+  display: block;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: var(--primary);
+
+  a {
+    display: inline-block;
+    padding: 2rem;
+    color: var(--text-light);
+    text-decoration: none;
+  }
+}
