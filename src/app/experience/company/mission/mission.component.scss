@@ -1,0 +1,13 @@
+:host {
+  display: block;
+  margin: 10px 0;
+  font-size: 0.8em;
+}
+
+.description {
+  color: var(--text-grey);
+}
+
+.skill:not(:last-child):after {
+  content: ', ';
+}

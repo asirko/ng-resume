@@ -1,0 +1,7 @@
+<div class="name">
+  <em>{{ mission.name }} ({{ mission.duration }})</em>
+</div>
+<div class="description">{{ mission.description }}</div>
+<div class="skills">
+  <span class="skill" *ngFor="let skill of mission.skills">{{ skill }}</span>
+</div>

@@ -1,0 +1,8 @@
+<div class="name">
+  <strong>{{ company.name }}</strong>
+  - {{ company.period }} - {{ company.job }}
+</div>
+
+<div class="missions">
+  <resume-mission *ngFor="let mission of company.missions" [mission]="mission"></resume-mission>
+</div>

@@ -1,16 +1,8 @@
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis, erat ac dignissim luctus, ex neque tincidunt
-  velit, a eleifend mi dolor ac leo. Ut ac ligula id nulla efficitur efficitur. Nunc nec venenatis justo. Ut egestas
-  cursus lacus, in tempor nunc mattis sed. Aenean lobortis enim non leo elementum, id aliquam tortor ornare. Mauris sit
-  amet lectus magna. Sed in est eu velit pellentesque sodales nec sit amet ex. Pellentesque commodo iaculis ligula nec
-  ultrices. Etiam egestas arcu sit amet metus tincidunt vehicula. In interdum at libero at tempor. Vestibulum dapibus
-  nisi eu cursus posuere. Aenean pharetra in nunc vitae volutpat.
-</p>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis, erat ac dignissim luctus, ex neque tincidunt
-  velit, a eleifend mi dolor ac leo. Ut ac ligula id nulla efficitur efficitur. Nunc nec venenatis justo. Ut egestas
-  cursus lacus, in tempor nunc mattis sed. Aenean lobortis enim non leo elementum, id aliquam tortor ornare. Mauris sit
-  amet lectus magna. Sed in est eu velit pellentesque sodales nec sit amet ex. Pellentesque commodo iaculis ligula nec
-  ultrices. Etiam egestas arcu sit amet metus tincidunt vehicula. In interdum at libero at tempor. Vestibulum dapibus
-  nisi eu cursus posuere. Aenean pharetra in nunc vitae volutpat.
-</p>
+<ng-container *transloco="let t; read: 'experience'">
+  <h3>{{ t('title') }}</h3>
+  <h4>{{ t('subtitle') }}</h4>
+
+  <div class="companies">
+    <resume-company *ngFor="let company of t('companies')" [company]="company"></resume-company>
+  </div>
+</ng-container>
