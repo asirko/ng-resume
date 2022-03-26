@@ -14,6 +14,7 @@ import { InterestComponent } from './interest/interest.component';
 import { StudyComponent } from './education/study/study.component';
 import { CompanyComponent } from './experience/company/company.component';
 import { MissionComponent } from './experience/company/mission/mission.component';
+import { SkillBarComponent } from './skill/skill-bar/skill-bar.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { MissionComponent } from './experience/company/mission/mission.component
     StudyComponent,
     CompanyComponent,
     MissionComponent,
+    SkillBarComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, TranslocoRootModule, HttpClientModule],
   bootstrap: [AppComponent],

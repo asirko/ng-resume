@@ -1,3 +1,26 @@
 :host {
+  position: relative;
   display: block;
+}
+
+hr {
+  border-color: transparent;
+  &:before {
+    content: '';
+    display: block;
+    width: 10rem;
+    border-top: 1px solid var(--text-grey);
+  }
+}
+
+.soft {
+  margin-bottom: 3rem;
+  span {
+    display: inline-block;
+    margin: 0 1rem;
+    border: 1px solid var(--primary);
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    color: var(--primary);
+  }
 }

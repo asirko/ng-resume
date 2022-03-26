@@ -1,0 +1,10 @@
+<div class="name">
+  {{ skill.name }}
+  <i class="info" (click)="infoClicked()">
+    i
+    <div class="complement" *ngIf="isOpen">{{ skill.complement }}</div>
+  </i>
+</div>
+<div class="bar-container">
+  <div class="bar" [style.width.%]="skill.rate * 100"></div>
+</div>
