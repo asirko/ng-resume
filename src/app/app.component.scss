@@ -14,4 +14,30 @@ header {
     color: var(--text-light);
     text-decoration: none;
   }
+  i {
+    margin-right: 1rem;
+  }
+}
+
+footer {
+  padding: 8rem;
+  background-color: var(--primary-light);
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80rem;
+    margin: auto;
+  }
+  .footer-text {
+    font-size: 3rem;
+    font-style: italic;
+    color: var(--primary);
+  }
+  a {
+    margin: 0 2rem;
+    font-size: 3rem;
+    color: var(--primary);
+    text-decoration: none;
+    outline: none;
+  }
 }

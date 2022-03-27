@@ -8,7 +8,7 @@
     "interest": "Intérêt"
   },
   "presentation": {
-    "hello": "Bonjour, moi c'est",
+    "hello": "Bonjour, je suis",
     "titleShort": "Développeur JavaScript Fullstack et expert Angular",
     "title": "Développeur JavaScript Fullstack avec un penchant pour le Front-End",
     "portraitTitle": "Mon portrait",
@@ -166,21 +166,22 @@
         "rate": 0.8
       }
     ],
-    "soft": ["Curieux", "Pédagogue", "Rigoureux"]
+    "soft": ["Curieux", "Pédagogue", "Rigoureux", "Attentif"]
   },
-  "accomplishment": {
+  "achievement": {
     "title": "Accomplissements",
     "subtitle": "Réalisations personnelles",
     "list": [
       "Formateur Angular interne (à SopraSteria et à Jump)",
-      "<a href=\"https://hal-mines-albi.archives-ouvertes.fr/view/index/identifiant/hal-01695320\">Article de conférence sur l'aide à la décision en contexte de crise</a>",
-      "<a href=\"http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A696221&dswid=3619\">Mémoire de master à KTH sur l'analyse de la modularité d'organisation</a>"
+      "Cours d'initiation à la programmation aux Mines d'Albi",
+      "<a target=\"_blank\" href=\"https://hal-mines-albi.archives-ouvertes.fr/view/index/identifiant/hal-01695320\">Article de conférence sur l'aide à la décision en contexte de crise</a>",
+      "<a target=\"_blank\" href=\"http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A696221&dswid=3619\">Mémoire de master à KTH sur l'analyse de la modularité d'organisation</a>"
     ]
   },
   "interest": {
     "title": "Centres d'intérêt",
     "subtitle": "En dehors du travail",
-    "list": ["Science", "Cuisine", "Billard", "Jeux vidéo", "Manga/Série"]
+    "list": ["Science", "Jeux de société", "Billard", "Cuisine", "Jeux vidéo", "Manga", "Série"]
   },
   "footer": {
     "conclusion": "N'hésitez pas à m'appeler"

@@ -2,6 +2,8 @@
 @import '@fontsource/lilita-one';
 @import '@fontsource/playfair-display';
 
+@import 'styles/icons/icons';
+
 html {
   scroll-behavior: smooth;
   font-size: 10px;
@@ -50,16 +52,29 @@ p {
 }
 
 main > *:not(:first-child) {
-  margin: 8rem;
+  margin: 8rem auto;
+  max-width: calc(50rem * 1.6);
+}
 
-  & > * {
-    max-width: calc(50rem * 1.6);
-    margin-left: auto;
-    margin-right: auto;
-  }
+ul {
+  list-style-type: none;
 }
 
 #about {
   padding: 8rem;
   margin: 0;
+  max-width: none;
+  & > * {
+    margin: 0 auto;
+    max-width: calc(50rem * 1.6);
+  }
+}
+
+#interest {
+  display: flex;
+  gap: 3rem;
+  & > * {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
 }

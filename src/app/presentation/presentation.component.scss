@@ -115,4 +115,16 @@
     border: none;
     cursor: pointer;
   }
+
+  .socials {
+    display: flex;
+    justify-content: center;
+    a {
+      margin: 0 2rem;
+      font-size: 3rem;
+      color: var(--text-light);
+      text-decoration: none;
+      outline: none;
+    }
+  }
 }

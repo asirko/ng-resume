@@ -15,6 +15,7 @@ import { StudyComponent } from './education/study/study.component';
 import { CompanyComponent } from './experience/company/company.component';
 import { MissionComponent } from './experience/company/mission/mission.component';
 import { SkillBarComponent } from './skill/skill-bar/skill-bar.component';
+import { AchievementComponent } from './achievement/achievement.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { SkillBarComponent } from './skill/skill-bar/skill-bar.component';
     CompanyComponent,
     MissionComponent,
     SkillBarComponent,
+    AchievementComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, TranslocoRootModule, HttpClientModule],
   bootstrap: [AppComponent],
