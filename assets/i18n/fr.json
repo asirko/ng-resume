@@ -1,0 +1,189 @@
+{
+  "header": {
+    "presentation": "Présentation",
+    "about": "À propos",
+    "education": "Formations",
+    "experience": "Expériences",
+    "skill": "Compétences",
+    "interest": "Intérêt"
+  },
+  "presentation": {
+    "hello": "Bonjour, je suis",
+    "titleShort": "Développeur JavaScript Fullstack et expert Angular",
+    "title": "Développeur JavaScript Fullstack avec un penchant pour le Front-End",
+    "portraitTitle": "Mon portrait",
+    "download": "Télécharger le CV"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "subtitle": "Ma motivation",
+    "text": "<p>Ayant effleuré le monde du développement pendant mes études, j'y ai trouvé un terrain de jeu. Encore aujourd'hui, je m'amuse à jongler avec les lignes de code.</p><p>Je suis tombé d'abord dans le monde Java où j'ai énormément appris accompagné par des personnes de la vieille école. Et je continue de penser que le stylo et le papier sont les meilleurs outils pour commencer une fonctionnalité.</p><p>Par la suite et malgré la réticence de collègues qui ont vécu la chute de Netscape, je me suis engouffré dans JavaScript. Naturellement, j'ai commencé par le Front-End avec des frameworks comme AngularJS et Backbone pour ensuite me concentrer sur Angular. Plus récemment, j'ai redécouvert le confort du développement fullstack principalement autour des mono-repos Nx avec NestJS et Angular.</p>"
+  },
+  "education": {
+    "title": "Mes études",
+    "subtitle": "Ce que j'ai appris",
+    "studies": [
+      {
+        "period": "2009-2013",
+        "name": "Diplôme d’ingénieur de l’école des Mines d’Albi en Gestion des Systèmes d’Information",
+        "description": "Formation d'ingénieur généraliste avec une spécialité en conception, gestion, développement et architecture de système d'information"
+      },
+      {
+        "period": "Mars - Août 2013",
+        "name": "Master thesis à KTH sur l’urbanisme de systèmes d’information",
+        "description": "Application de l'\u00ab\u00a0hidden structure method\u00a0\u00bb développé à Harvard pour analyser la structure d'organisations"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Mes expériences",
+    "subtitle": "Où j'ai travaillé",
+    "companies": [
+      {
+        "period": "Depuis 2018",
+        "name": "Jump",
+        "job": "Développeur Fullstack JS sénior",
+        "missions": [
+          {
+            "name": "Plateforme 3D",
+            "duration": "6 mois",
+            "description": "Plateforme de formation illustrant le parcours de l'apprenant au travers d'éléments en 3 dimensions",
+            "skills": ["Angular", "ThreeJS", "NestJS", "Mono-Repo", "TypeORM", "PostgreSQL"]
+          },
+          {
+            "name": "Freelup",
+            "duration": "6 mois",
+            "description": "Plateforme de mise en relation entre des experts de la logistique et des entreprises.",
+            "skills": ["Angular", "NestJS", "Mono-Repo", "TypeORM", "PostgreSQL"]
+          },
+          {
+            "name": "Storiz",
+            "duration": "18 mois",
+            "description": "Plateforme SaaS d'édition de contenu pédagogique.",
+            "skills": ["Angular", "Mono-Repo", "Scrum Master"]
+          },
+          {
+            "name": "Escape-Game",
+            "duration": "3 mois",
+            "description": "Développement d'un « Escape-Game » : point & click immergeant l'apprenant dans sa formation.",
+            "skills": ["Angular", "Mono-Repo", "Lottie"]
+          },
+          {
+            "name": "Refonte des mini-jeux",
+            "duration": "4 mois",
+            "description": "Refonte de mini-jeux pédagogiques regroupés dans un mono-repo.",
+            "skills": ["Angular", "Mono-Repo", "RWD"]
+          },
+          {
+            "name": "Anie",
+            "duration": "9 mois",
+            "description": "Développement d'une application de mise en relation entre candidats de l'apprentissage et entreprises.",
+            "skills": ["Angular", "PWA"]
+          }
+        ]
+      },
+      {
+        "period": "2014 - 2018",
+        "name": "Sopra Steria",
+        "job": "Développeur Java et JavaScript",
+        "missions": [
+          {
+            "name": "Daïki",
+            "duration": "9 mois",
+            "description": "Catalogue d'exploration des données d'EDF.",
+            "skills": ["Angular", "Elastic", "Java"]
+          },
+          {
+            "name": "PNDS",
+            "duration": "6 mois",
+            "description": "Front-end d'une plateforme de consultation générique des droits sociaux",
+            "skills": ["Backbone JS"]
+          },
+          {
+            "name": "AGIL’APPRO",
+            "duration": "10 mois",
+            "description": "Application de crédit court terme spécialisé dans le domaine agricole.",
+            "skills": ["Java", "JSF", "Scss"]
+          },
+          {
+            "name": "PidiTools",
+            "duration": "3 mois",
+            "description": "Application d'aide à la décision pour les techniciens télécom",
+            "skills": ["AngularJS", "TUA"]
+          },
+          {
+            "name": "Cariparma",
+            "duration": "9 mois",
+            "description": "Traduction en italien et évolutions sur la base d'une application legacy du crédit agricole",
+            "skills": ["Java", "Struts 1"]
+          }
+        ]
+      },
+      {
+        "period": "2013 - 2014",
+        "name": "Laboratoire GIPSI des Mines d'Albi",
+        "job": "Ingénieur de recherche",
+        "missions": [
+          {
+            "name": "Axe IO",
+            "duration": "12 mois",
+            "description": "Récolte d'information pour aider la prise de décision en contexte de crise humanitaire",
+            "skills": ["Analyse d'article", "API Twitter", "EDA", "BPMN"]
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Mes compétences",
+    "subtitle": "Ce que je peux vous apporter",
+    "hard": [
+      {
+        "name": "Front-End",
+        "complement": "Maîtrise d'Angular (fonctionnement interne, évolutions, architecture, CLI, NgXs, RxJS), intégration (préprocesseur, SMACSS, custom properties), formation et accompagnement de développeur Junior, compréhension du DOM",
+        "rate": 1
+      },
+      {
+        "name": "Back-End",
+        "complement": "Utilisation avancé de NestJS (architecture, TypeORM, Bcrypt, WebSocket, Redis), bonne compréhension d'ExpressJS, structurer une API REST, sécurité basique",
+        "rate": 0.8
+      },
+      {
+        "name": "Persistance",
+        "complement": "Base de données relationnels (MySQL, PostgreSQL), Bonne notion de NoSQL (Firebase, Elastick, Mongo, Redis)",
+        "rate": 0.6
+      },
+      {
+        "name": "DevOps",
+        "complement": "Bundler, gestion de dépendances, déploiement, monorepo (Angular et Nx), Docker (image basique), CI/CD (bitbucket pipeline et Gitlab pipeline), configuration basique de serveur (Apache et Nginx)",
+        "rate": 0.6
+      }
+    ],
+    "language": [
+      {
+        "name": "Anglais",
+        "complement": "Bonne aisance en compréhension écrite/orale, rédactionnelle et conversationnelle",
+        "rate": 0.8
+      }
+    ],
+    "soft": ["Curieux", "Pédagogue", "Rigoureux", "Attentif"]
+  },
+  "achievement": {
+    "title": "Accomplissements",
+    "subtitle": "Réalisations personnelles",
+    "list": [
+      "Formateur Angular interne (à SopraSteria et à Jump)",
+      "Cours d'initiation à la programmation aux Mines d'Albi",
+      "<a target=\"_blank\" href=\"https://hal-mines-albi.archives-ouvertes.fr/view/index/identifiant/hal-01695320\">Article de conférence sur l'aide à la décision en contexte de crise</a>",
+      "<a target=\"_blank\" href=\"http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A696221&dswid=3619\">Mémoire de master à KTH sur l'analyse de la modularité d'organisation</a>"
+    ]
+  },
+  "interest": {
+    "title": "Centres d'intérêt",
+    "subtitle": "En dehors du travail",
+    "list": ["Science", "Jeux de société", "Billard", "Cuisine", "Jeux vidéo", "Manga", "Série"]
+  },
+  "footer": {
+    "conclusion": "N'hésitez pas à m'appeler"
+  }
+}
