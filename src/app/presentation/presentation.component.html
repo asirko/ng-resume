@@ -10,20 +10,17 @@
     <div class="portrait">
       <img src="../../assets/images/portrait.png" [alt]="t('presentation.portraitTitle')" />
     </div>
-    <div class="name">Alexandre Sirko</div>
-    <div class="description">
-      <div class="job-title">{{ t('presentation.title') }}</div>
-      <div class="location">Toulouse, France</div>
+    <div class="name" hidden>Alexandre Sirko</div>
+    <div class="job-title" hidden>{{ t('presentation.titleShort') }}</div>
+    <div class="keywords">
+      <span *ngFor="let keyword of t('presentation.keywords')">{{ keyword }}</span>
     </div>
-    <div class="contact">
-      <div class="email"><a href="mailto:sirko.alexandre@gmail.com">sirko.alexandre@gmail.com</a></div>
-      <div class="phone"><a href="tel:+33609449501">+33&nbsp;6&nbsp;09&nbsp;44&nbsp;95&nbsp;01</a></div>
-    </div>
+    <resume-contact></resume-contact>
     <div class="socials">
       <a href="https://github.com/asirko" target="_blank"><i class="icon-github"></i></a>
       <a href="https://gitlab.com/sirko.alexandre" target="_blank"><i class="icon-gitlab"></i></a>
       <a href="https://www.linkedin.com/in/alexandre-sirko-77aa6359/" target="_blank"><i class="icon-linkedin"></i></a>
     </div>
-    <button class="print">{{ t('presentation.download') }}</button>
+    <button class="print" (click)="print()">{{ t('presentation.download') }}</button>
   </div>
 </ng-container>

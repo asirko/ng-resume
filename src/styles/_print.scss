@@ -1,0 +1,168 @@
+@media print {
+  @page {
+    margin: 0;
+  }
+  html {
+    font-size: 9px;
+  }
+  #print {
+    --first-column-width: 7cm;
+    --second-column-width: 14cm;
+    --experience-height: 18cm;
+
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+
+    header,
+    resume-presentation .left,
+    resume-presentation .socials,
+    resume-presentation .print,
+    resume-study .description,
+    resume-skill i,
+    resume-skill h3,
+    resume-skill hr,
+    resume-about,
+    h4,
+    footer,
+    resume-mission:not(.is-important) {
+      display: none !important;
+    }
+
+    resume-presentation {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: var(--first-column-width);
+      height: 17cm;
+      .right {
+        min-width: initial;
+        width: 100%;
+      }
+      .name,
+      .job-title {
+        display: block;
+      }
+      .portrait {
+        order: 1;
+      }
+      .name {
+        order: 2;
+      }
+      .job-title {
+        order: 3;
+      }
+      resume-contact {
+        order: 4;
+      }
+      .keywords {
+        order: 5;
+      }
+    }
+
+    resume-skill {
+      position: fixed;
+      top: 17cm;
+      left: 0;
+      width: var(--first-column-width);
+      height: 12.7cm;
+      background-color: var(--primary);
+      color: var(--text-light);
+
+      .soft {
+        text-align: center;
+        span {
+          color: var(--text-light);
+          border-color: var(--text-light);
+        }
+      }
+      resume-skill-bar {
+        padding: 0 3.5rem;
+        display: block;
+        .bar-container {
+          margin-top: 0.5rem;
+          height: 1.1rem;
+          background-color: var(--primary-light);
+          border: 0.2rem solid var(--primary-light);
+          border-radius: 1rem;
+          overflow: hidden;
+          position: initial;
+        }
+        .bar {
+          height: 100%;
+
+          border: 0.2rem solid var(--primary);
+        }
+      }
+    }
+
+    resume-experience {
+      position: fixed;
+      top: 0;
+      left: var(--first-column-width);
+      width: var(--second-column-width);
+      height: var(--experience-height);
+      padding-left: 2rem;
+    }
+    resume-education {
+      position: fixed;
+      top: var(--experience-height);
+      left: var(--first-column-width);
+      width: var(--second-column-width);
+      height: 4.7cm;
+      padding-left: 2rem;
+    }
+    #interest {
+      position: fixed;
+      top: 22.7cm;
+      left: var(--first-column-width);
+      width: var(--second-column-width);
+      height: 7cm;
+      padding-left: 2rem;
+
+      resume-achievement {
+        a {
+          color: var(--text);
+          text-decoration: none;
+        }
+      }
+
+      resume-interest {
+        ul {
+          columns: initial;
+        }
+      }
+    }
+
+    h3 {
+      margin: 0;
+    }
+    resume-presentation,
+    resume-experience,
+    resume-skill,
+    resume-education,
+    #interest {
+      margin: 0;
+    }
+    resume-experience .companies {
+      columns: initial;
+    }
+
+    resume-mission .name,
+    resume-mission .description {
+      display: inline;
+    }
+    resume-mission .name {
+      font-weight: bold;
+      font-style: normal;
+    }
+    resume-mission .description {
+      margin: 0 5px;
+    }
+    .keywords {
+      font-size: 0.8em;
+    }
+    resume-education .studies {
+      columns: initial;
+    }
+  }
+}

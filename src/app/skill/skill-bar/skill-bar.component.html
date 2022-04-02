@@ -2,7 +2,7 @@
   {{ skill.name }}
   <i class="info" (click)="infoClicked()">
     i
-    <div class="complement" *ngIf="isOpen">{{ skill.complement }}</div>
+    <div class="complement" *ngIf="isOpen" (click)="$event.stopPropagation()">{{ skill.complement }}</div>
   </i>
 </div>
 <div class="bar-container">

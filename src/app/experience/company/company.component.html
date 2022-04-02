@@ -4,5 +4,9 @@
 </div>
 
 <div class="missions">
-  <resume-mission *ngFor="let mission of company.missions" [mission]="mission"></resume-mission>
+  <resume-mission
+    *ngFor="let mission of company.missions"
+    [mission]="mission"
+    [class.is-important]="mission.isImportant"
+  ></resume-mission>
 </div>

@@ -5,6 +5,7 @@ export interface Mission {
   duration: string;
   description: string;
   skills: string[];
+  isImportant: boolean;
 }
 
 @Component({

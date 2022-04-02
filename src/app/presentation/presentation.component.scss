@@ -18,8 +18,6 @@
     right: 0;
     bottom: 0;
     left: 0;
-    transform-style: preserve-3d;
-    transform: translateZ(-1px) scale(1.5);
     background-size: cover;
     background-image: url(../../assets/images/code.jpg);
     background-repeat: no-repeat;
@@ -97,15 +95,22 @@
     font-family: 'Lilita One';
   }
 
-  .description {
+  .keywords {
     line-height: 2.4rem;
+    span {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      border: 1px solid var(--text-light);
+      border-radius: 2rem;
+      margin: 0.5rem;
+      &:before {
+        content: '#';
+      }
+    }
   }
 
-  .contact {
-    a {
-      color: var(--text-light);
-      text-decoration: none;
-    }
+  resume-contact {
+    --contact-color: var(--text-light);
   }
 
   .print {
