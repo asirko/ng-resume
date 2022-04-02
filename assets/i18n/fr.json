@@ -8,11 +8,11 @@
     "interest": "Intérêt"
   },
   "presentation": {
-    "hello": "Bonjour, je suis",
+    "hello": "Hello, my name is",
+    "keywords": ["Angular", "Formateur", "NestJS", "Architecte", "Mono-Repo", "Typescript"],
     "titleShort": "Développeur JavaScript Fullstack et expert Angular",
-    "title": "Développeur JavaScript Fullstack avec un penchant pour le Front-End",
     "portraitTitle": "Mon portrait",
-    "download": "Télécharger le CV"
+    "download": "Imprimer l'essentiel"
   },
   "about": {
     "title": "À propos de moi",
@@ -48,25 +48,29 @@
             "name": "Plateforme 3D",
             "duration": "6 mois",
             "description": "Plateforme de formation illustrant le parcours de l'apprenant au travers d'éléments en 3 dimensions",
-            "skills": ["Angular", "ThreeJS", "NestJS", "Mono-Repo", "TypeORM", "PostgreSQL"]
+            "skills": ["Angular", "ThreeJS", "NestJS", "Mono-Repo", "TypeORM", "PostgreSQL"],
+            "isImportant": true
           },
           {
             "name": "Freelup",
             "duration": "6 mois",
             "description": "Plateforme de mise en relation entre des experts de la logistique et des entreprises.",
-            "skills": ["Angular", "NestJS", "Mono-Repo", "TypeORM", "PostgreSQL"]
+            "skills": ["Angular", "NestJS", "Mono-Repo", "TypeORM", "PostgreSQL"],
+            "isImportant": true
           },
           {
             "name": "Storiz",
             "duration": "18 mois",
             "description": "Plateforme SaaS d'édition de contenu pédagogique.",
-            "skills": ["Angular", "Mono-Repo", "Scrum Master"]
+            "skills": ["Angular", "Mono-Repo", "Scrum Master"],
+            "isImportant": true
           },
           {
             "name": "Escape-Game",
             "duration": "3 mois",
             "description": "Développement d'un « Escape-Game » : point & click immergeant l'apprenant dans sa formation.",
-            "skills": ["Angular", "Mono-Repo", "Lottie"]
+            "skills": ["Angular", "Mono-Repo", "Lottie"],
+            "isImportant": true
           },
           {
             "name": "Refonte des mini-jeux",
@@ -78,7 +82,8 @@
             "name": "Anie",
             "duration": "9 mois",
             "description": "Développement d'une application de mise en relation entre candidats de l'apprentissage et entreprises.",
-            "skills": ["Angular", "PWA"]
+            "skills": ["Angular", "PWA"],
+            "isImportant": true
           }
         ]
       },
@@ -91,13 +96,15 @@
             "name": "Daïki",
             "duration": "9 mois",
             "description": "Catalogue d'exploration des données d'EDF.",
-            "skills": ["Angular", "Elastic", "Java"]
+            "skills": ["Angular", "Elastic", "Java"],
+            "isImportant": true
           },
           {
             "name": "PNDS",
             "duration": "6 mois",
             "description": "Front-end d'une plateforme de consultation générique des droits sociaux",
-            "skills": ["Backbone JS"]
+            "skills": ["Backbone JS"],
+            "isImportant": true
           },
           {
             "name": "AGIL’APPRO",
@@ -109,7 +116,8 @@
             "name": "PidiTools",
             "duration": "3 mois",
             "description": "Application d'aide à la décision pour les techniciens télécom",
-            "skills": ["AngularJS", "TUA"]
+            "skills": ["AngularJS", "TUA"],
+            "isImportant": true
           },
           {
             "name": "Cariparma",
@@ -128,7 +136,8 @@
             "name": "Axe IO",
             "duration": "12 mois",
             "description": "Récolte d'information pour aider la prise de décision en contexte de crise humanitaire",
-            "skills": ["Analyse d'article", "API Twitter", "EDA", "BPMN"]
+            "skills": ["Analyse d'article", "API Twitter", "EDA", "BPMN"],
+            "isImportant": true
           }
         ]
       }
@@ -184,6 +193,6 @@
     "list": ["Science", "Jeux de société", "Billard", "Cuisine", "Jeux vidéo", "Manga", "Série"]
   },
   "footer": {
-    "conclusion": "N'hésitez pas à m'appeler"
+    "conclusion": "Merci d'avoir pris le temps de consulter mon cv, n'hésitez pas à me contacter !"
   }
 }
