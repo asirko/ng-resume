@@ -1,0 +1,29 @@
+<header *transloco="let t; read: 'header'" [class.is-open]="isOpen">
+  <nav id="nav" (click)="isOpen = !isOpen">
+    <a routerLink="" fragment="presentation">
+      <i class="icon-presentation"></i>
+      {{ t('presentation') }}
+    </a>
+    <a routerLink="" fragment="about">
+      <i class="icon-about"></i>
+      {{ t('about') }}
+    </a>
+    <a routerLink="" fragment="experience">
+      <i class="icon-experience"></i>
+      {{ t('experience') }}
+    </a>
+    <a routerLink="" fragment="skill">
+      <i class="icon-skill"></i>
+      {{ t('skill') }}
+    </a>
+    <a routerLink="" fragment="education">
+      <i class="icon-education"></i>
+      {{ t('education') }}
+    </a>
+    <a routerLink="" fragment="interest">
+      <i class="icon-interest"></i>
+      {{ t('interest') }}
+    </a>
+  </nav>
+  <button (click)="isOpen = !isOpen"><i class="icon-menu"></i></button>
+</header>

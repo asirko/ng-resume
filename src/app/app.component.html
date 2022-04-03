@@ -1,54 +1,25 @@
-<ng-container *transloco="let t">
-  <header>
-    <nav id="nav">
-      <a href="#presentation">
-        <i class="icon-presentation"></i>
-        {{ t('header.presentation') }}
-      </a>
-      <a href="#about">
-        <i class="icon-about"></i>
-        {{ t('header.about') }}
-      </a>
-      <a href="#experience">
-        <i class="icon-experience"></i>
-        {{ t('header.experience') }}
-      </a>
-      <a href="#skill">
-        <i class="icon-skill"></i>
-        {{ t('header.skill') }}
-      </a>
-      <a href="#education">
-        <i class="icon-education"></i>
-        {{ t('header.education') }}
-      </a>
-      <a href="#interest">
-        <i class="icon-interest"></i>
-        {{ t('header.interest') }}
-      </a>
-    </nav>
-  </header>
+<resume-header></resume-header>
 
-  <main>
-    <resume-presentation id="presentation"></resume-presentation>
-    <resume-about id="about"></resume-about>
-    <resume-experience id="experience"></resume-experience>
-    <resume-skill id="skill"></resume-skill>
-    <resume-education id="education"></resume-education>
-    <div id="interest">
-      <resume-achievement></resume-achievement>
-      <resume-interest></resume-interest>
-    </div>
-  </main>
+<main>
+  <resume-presentation id="presentation"></resume-presentation>
+  <resume-about id="about"></resume-about>
+  <resume-experience id="experience"></resume-experience>
+  <resume-skill id="skill"></resume-skill>
+  <resume-education id="education"></resume-education>
+  <div id="interest">
+    <resume-achievement></resume-achievement>
+    <resume-interest></resume-interest>
+  </div>
+</main>
 
-  <footer>
-    <div class="footer-text">
-      {{ t('footer.conclusion') }}
-    </div>
-    <div class="footer-container">
-      <resume-contact></resume-contact>
-      <a href="#presentation">
-        <i class="icon-circle-up"></i>
-      </a>
-    </div>
-  </footer>
-</ng-container>
+<footer>
+  <div class="footer-text">
+    {{ 'footer.conclusion' | transloco }}
+  </div>
+  <div class="footer-container">
+    <resume-contact></resume-contact>
+    <a href="#presentation">
+      <i class="icon-circle-up"></i>
+    </a>
+  </div>
+</footer>

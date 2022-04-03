@@ -1,7 +1,18 @@
+@use 'mixins';
+
 :host {
   display: block;
 }
 
 .studies {
   columns: 2;
+}
+
+@include mixins.breakpoint(small) {
+  .studies {
+    columns: initial;
+  }
+  resume-study {
+    margin: 2rem 0;
+  }
 }

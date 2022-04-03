@@ -1,3 +1,5 @@
+@use 'mixins';
+
 :host {
   position: relative;
   display: block;
@@ -22,5 +24,19 @@ hr {
     padding: 0.5rem 1rem;
     border-radius: 2rem;
     color: var(--primary);
+  }
+}
+
+@include mixins.breakpoint(small) {
+  .soft {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    span {
+      width: 45%;
+      margin: 0 0 1rem;
+      text-align: center;
+    }
   }
 }

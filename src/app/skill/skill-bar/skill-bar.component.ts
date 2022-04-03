@@ -13,12 +13,20 @@ export class SkillBarComponent {
 
   constructor(private cdr: ChangeDetectorRef) {}
 
-  infoClicked() {
+  infoClicked(event: MouseEvent) {
     if (this.isOpen) {
       return;
     }
-    const nextClickAnywhere$ = fromEvent(document, 'click').pipe(skip(1), first());
     this.isOpen = true;
+
+    const elem = event.currentTarget as HTMLElement;
+    const parent = elem.parentElement!;
+    const elemRect = elem.getBoundingClientRect();
+    const parentRect = parent.getBoundingClientRect();
+    const pos = elemRect.left - parentRect.left + elemRect.width / 2;
+    elem.style.setProperty('--pos', pos + 'px');
+
+    const nextClickAnywhere$ = fromEvent(document, 'click').pipe(skip(1), first());
     nextClickAnywhere$.subscribe(() => {
       this.isOpen = false;
       this.cdr.markForCheck();

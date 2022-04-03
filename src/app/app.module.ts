@@ -17,6 +17,7 @@ import { MissionComponent } from './experience/company/mission/mission.component
 import { SkillBarComponent } from './skill/skill-bar/skill-bar.component';
 import { AchievementComponent } from './achievement/achievement.component';
 import { ContactComponent } from './contact/contact.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { ContactComponent } from './contact/contact.component';
     SkillBarComponent,
     AchievementComponent,
     ContactComponent,
+    HeaderComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, TranslocoRootModule, HttpClientModule],
   bootstrap: [AppComponent],

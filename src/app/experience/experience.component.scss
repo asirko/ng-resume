@@ -1,7 +1,15 @@
+@use 'mixins';
+
 :host {
   display: block;
   font-size: 1.1em;
 }
 .companies {
   columns: 2;
+}
+
+@include mixins.breakpoint(small) {
+  .companies {
+    columns: initial;
+  }
 }

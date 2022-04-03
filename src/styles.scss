@@ -3,10 +3,12 @@
 @import '@fontsource/playfair-display';
 
 @import 'styles/icons/icons';
-
 @import 'styles/print';
 
+@import 'styles/shared/mixins';
+
 html {
+  width: 100% !important;
   scroll-behavior: smooth;
   font-size: 10px;
   font-family: Lato;
@@ -29,6 +31,7 @@ body {
   --text-light: #fff;
   --text-grey: #aaa;
   --text: #000;
+  --margin: 8rem;
 }
 
 h3 {
@@ -54,7 +57,7 @@ p {
 }
 
 main > *:not(:first-child) {
-  margin: 8rem auto;
+  margin: var(--margin) auto;
   max-width: calc(50rem * 1.6);
 }
 
@@ -63,7 +66,7 @@ ul {
 }
 
 #about {
-  padding: 8rem;
+  padding: var(--margin);
   margin: 0;
   max-width: none;
   & > * {
@@ -78,5 +81,30 @@ ul {
   & > * {
     flex-grow: 1;
     flex-basis: 0;
+  }
+}
+
+@include breakpoint(medium) {
+  main > *:not(:first-child) {
+    margin: var(--margin);
+  }
+}
+
+@include breakpoint(small) {
+  :root {
+    --margin: 3rem;
+  }
+  #interest {
+    display: block;
+    gap: initial;
+  }
+  main > *:not(:first-child) {
+    max-width: initial;
+  }
+  h3 {
+    margin-top: 4rem;
+  }
+  h4 {
+    margin-bottom: 3rem;
   }
 }

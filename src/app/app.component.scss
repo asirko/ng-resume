@@ -1,46 +1,44 @@
+@use 'mixins';
+
 :host {
   display: block;
 }
 
-header {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  background-color: var(--primary);
-
-  a {
-    display: inline-block;
-    padding: 2rem;
-    color: var(--text-light);
-    text-decoration: none;
-  }
-  i {
-    margin-right: 1rem;
-  }
-}
-
 footer {
-  padding: 8rem;
+  padding: var(--margin);
   background-color: var(--primary-light);
-  .footer-text {
-    font-size: 3rem;
-    font-style: italic;
-    color: var(--primary);
-    max-width: 80rem;
-    margin: 0 auto 4rem;
-  }
 
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 80rem;
-    margin: auto;
-  }
   a {
     margin: 0 2rem;
     font-size: 6rem;
     color: var(--primary);
     text-decoration: none;
     outline: none;
+  }
+}
+
+.footer-text {
+  font-size: 3rem;
+  font-style: italic;
+  color: var(--primary);
+  max-width: 80rem;
+  margin: 0 auto 4rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80rem;
+  margin: auto;
+}
+
+@include mixins.breakpoint(small) {
+  .footer-text {
+    font-size: 2rem;
+    max-width: initial;
+  }
+
+  footer a {
+    font-size: 4rem;
   }
 }

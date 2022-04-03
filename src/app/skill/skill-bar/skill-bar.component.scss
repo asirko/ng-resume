@@ -1,4 +1,7 @@
+@use 'mixins';
+
 :host {
+  position: relative;
   display: flex;
   margin: 20px 0;
 }
@@ -60,4 +63,17 @@
   top: -1px;
   background-color: var(--primary);
   height: 3px;
+}
+
+@include mixins.breakpoint(small) {
+  .info {
+    position: initial;
+  }
+  .complement {
+    left: 0;
+    width: 100%;
+    &:before {
+      left: calc(var(--pos) - 1.15rem);
+    }
+  }
 }

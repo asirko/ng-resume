@@ -1,6 +1,6 @@
 <div class="name">
   {{ skill.name }}
-  <i class="info" (click)="infoClicked()">
+  <i class="info" (click)="infoClicked($event)">
     i
     <div class="complement" *ngIf="isOpen" (click)="$event.stopPropagation()">{{ skill.complement }}</div>
   </i>

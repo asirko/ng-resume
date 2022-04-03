@@ -1,0 +1,71 @@
+@use 'mixins';
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: var(--primary);
+  box-shadow: 2px 0 20px 2px rgba(0, 0, 0, 0.8);
+
+  a {
+    display: inline-block;
+    padding: 2rem;
+    color: var(--text-light);
+    text-decoration: none;
+  }
+  i {
+    margin-right: 1rem;
+  }
+}
+
+button {
+  display: none;
+  i {
+    margin: 0;
+  }
+}
+
+@include mixins.breakpoint(medium) {
+  header {
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    transition: transform 0.3s ease-in-out;
+
+    &:not(.is-open) {
+      transform: translateX(-250px);
+      box-shadow: none;
+    }
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+  }
+  button {
+    display: block;
+    position: absolute;
+    left: 250px;
+    top: 40px;
+    padding: 1rem;
+    font-size: 32px;
+    color: var(--text-light);
+    background-color: var(--primary);
+    box-shadow: 2px 0 20px 2px rgba(0, 0, 0, 0.8);
+    border: none;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    outline: none;
+    cursor: pointer;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: -3rem;
+      top: -2rem;
+      width: 3rem;
+      height: calc(100% + 4rem);
+      background-color: var(--primary);
+    }
+  }
+}
