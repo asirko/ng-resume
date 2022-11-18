@@ -40,7 +40,28 @@
     "subtitle": "Où j'ai travaillé",
     "companies": [
       {
-        "period": "Depuis 2018",
+        "period": "Depuis Septembre 2022",
+        "name": "MYRE",
+        "job": "Développeur Lead Tech Front-End",
+        "missions": [
+          {
+            "name": "Plateforme d'asset management",
+            "duration": "3 mois",
+            "description": "Modifications sur des fonctionnalités liées à la facturation des locataires",
+            "skills": ["Angular", "ExpressJS", "Multi modules", "Github", "Sequilize", "PostgreSQL"],
+            "isImportant": true
+          },
+          {
+            "name": "Librairie transverse pour les Front-Ends",
+            "duration": "1 mois",
+            "description": "Coordination de développements d'une librairie transverse de composant réutilisables",
+            "skills": ["Angular", "NgRx", "Figma", "Storybook"],
+            "isImportant": true
+          }
+        ]
+      },
+      {
+        "period": "2018 - 2022",
         "name": "Jump",
         "job": "Développeur Fullstack JS sénior",
         "missions": [
@@ -70,7 +91,7 @@
             "duration": "3 mois",
             "description": "Développement d'un « Escape-Game » : point & click immergeant l'apprenant dans sa formation.",
             "skills": ["Angular", "Mono-Repo", "Lottie"],
-            "isImportant": true
+            "isImportant": false
           },
           {
             "name": "Refonte des mini-jeux",
@@ -83,7 +104,7 @@
             "duration": "9 mois",
             "description": "Développement d'une application de mise en relation entre candidats de l'apprentissage et entreprises.",
             "skills": ["Angular", "PWA"],
-            "isImportant": true
+            "isImportant": false
           }
         ]
       },
@@ -104,7 +125,7 @@
             "duration": "6 mois",
             "description": "Front-end d'une plateforme de consultation générique des droits sociaux.",
             "skills": ["Backbone JS"],
-            "isImportant": true
+            "isImportant": false
           },
           {
             "name": "AGIL’APPRO",
@@ -165,7 +186,7 @@
       {
         "name": "DevOps",
         "complement": "Bundler, gestion de dépendances, déploiement, monorepo (Angular et Nx), Docker (image basique), CI/CD (bitbucket pipeline et Gitlab pipeline), configuration basique de serveur (Apache et Nginx)",
-        "rate": 0.6
+        "rate": 0.4
       }
     ],
     "language": [
