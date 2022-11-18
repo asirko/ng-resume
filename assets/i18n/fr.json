@@ -5,7 +5,7 @@
     "education": "Formations",
     "experience": "Expériences",
     "skill": "Compétences",
-    "interest": "Intérêt"
+    "interest": "Intérêts"
   },
   "presentation": {
     "hello": "Hello, my name is",
@@ -40,14 +40,35 @@
     "subtitle": "Où j'ai travaillé",
     "companies": [
       {
-        "period": "Depuis 2018",
+        "period": "Depuis Septembre 2022",
+        "name": "MYRE",
+        "job": "Développeur Lead Tech Front-End",
+        "missions": [
+          {
+            "name": "Plateforme d'asset management",
+            "duration": "3 mois",
+            "description": "Modifications sur des fonctionnalités liées à la facturation des locataires",
+            "skills": ["Angular", "ExpressJS", "Multi modules", "Github", "Sequilize", "PostgreSQL"],
+            "isImportant": true
+          },
+          {
+            "name": "Librairie transverse pour les Front-Ends",
+            "duration": "1 mois",
+            "description": "Coordination de développements d'une librairie transverse de composant réutilisables",
+            "skills": ["Angular", "NgRx", "Figma", "Storybook"],
+            "isImportant": true
+          }
+        ]
+      },
+      {
+        "period": "2018 - 2022",
         "name": "Jump",
         "job": "Développeur Fullstack JS sénior",
         "missions": [
           {
             "name": "Plateforme 3D",
             "duration": "6 mois",
-            "description": "Plateforme de formation illustrant le parcours de l'apprenant au travers d'éléments en 3 dimensions",
+            "description": "Plateforme de formation illustrant le parcours de l'apprenant au travers d'éléments en 3 dimensions.",
             "skills": ["Angular", "ThreeJS", "NestJS", "Mono-Repo", "TypeORM", "PostgreSQL"],
             "isImportant": true
           },
@@ -70,7 +91,7 @@
             "duration": "3 mois",
             "description": "Développement d'un « Escape-Game » : point & click immergeant l'apprenant dans sa formation.",
             "skills": ["Angular", "Mono-Repo", "Lottie"],
-            "isImportant": true
+            "isImportant": false
           },
           {
             "name": "Refonte des mini-jeux",
@@ -83,7 +104,7 @@
             "duration": "9 mois",
             "description": "Développement d'une application de mise en relation entre candidats de l'apprentissage et entreprises.",
             "skills": ["Angular", "PWA"],
-            "isImportant": true
+            "isImportant": false
           }
         ]
       },
@@ -102,9 +123,9 @@
           {
             "name": "PNDS",
             "duration": "6 mois",
-            "description": "Front-end d'une plateforme de consultation générique des droits sociaux",
+            "description": "Front-end d'une plateforme de consultation générique des droits sociaux.",
             "skills": ["Backbone JS"],
-            "isImportant": true
+            "isImportant": false
           },
           {
             "name": "AGIL’APPRO",
@@ -115,14 +136,14 @@
           {
             "name": "PidiTools",
             "duration": "3 mois",
-            "description": "Application d'aide à la décision pour les techniciens télécom",
+            "description": "Application d'aide à la décision pour les techniciens télécom.",
             "skills": ["AngularJS", "TUA"],
             "isImportant": true
           },
           {
             "name": "Cariparma",
             "duration": "9 mois",
-            "description": "Traduction en italien et évolutions sur la base d'une application legacy du crédit agricole",
+            "description": "Traduction en italien et évolutions sur la base d'une application legacy du crédit agricole.",
             "skills": ["Java", "Struts 1"]
           }
         ]
@@ -135,7 +156,7 @@
           {
             "name": "Axe IO",
             "duration": "12 mois",
-            "description": "Récolte d'information pour aider la prise de décision en contexte de crise humanitaire",
+            "description": "Récolte d'informations pour aider la prise de décision en contexte de crise humanitaire.",
             "skills": ["Analyse d'article", "API Twitter", "EDA", "BPMN"],
             "isImportant": true
           }
@@ -149,23 +170,23 @@
     "hard": [
       {
         "name": "Front-End",
-        "complement": "Maîtrise d'Angular (fonctionnement interne, évolutions, architecture, CLI, NgXs, RxJS), intégration (préprocesseur, SMACSS, custom properties), formation et accompagnement de développeur Junior, compréhension du DOM",
+        "complement": "Maîtrise d'Angular (fonctionnement interne, évolutions, architecture, CLI, NgXs, RxJS), intégration (préprocesseur, SMACSS, custom properties), formation et accompagnement de développeurs juniors, compréhension du DOM",
         "rate": 1
       },
       {
         "name": "Back-End",
-        "complement": "Utilisation avancé de NestJS (architecture, TypeORM, Bcrypt, WebSocket, Redis), bonne compréhension d'ExpressJS, structurer une API REST, sécurité basique",
+        "complement": "Utilisation avancée de NestJS (architecture, TypeORM, Bcrypt, WebSocket, Redis), bonne compréhension d'ExpressJS, conception d'API REST, sécurité basique",
         "rate": 0.8
       },
       {
         "name": "Persistance",
-        "complement": "Base de données relationnels (MySQL, PostgreSQL), Bonne notion de NoSQL (Firebase, Elastick, Mongo, Redis)",
+        "complement": "Base de données relationnelles (MySQL, PostgreSQL), bonne notion de NoSQL (Firebase, Elastick, Mongo, Redis)",
         "rate": 0.6
       },
       {
         "name": "DevOps",
         "complement": "Bundler, gestion de dépendances, déploiement, monorepo (Angular et Nx), Docker (image basique), CI/CD (bitbucket pipeline et Gitlab pipeline), configuration basique de serveur (Apache et Nginx)",
-        "rate": 0.6
+        "rate": 0.4
       }
     ],
     "language": [
