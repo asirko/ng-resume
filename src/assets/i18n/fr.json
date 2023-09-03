@@ -211,7 +211,7 @@
   "interest": {
     "title": "Centres d'intérêt",
     "subtitle": "En dehors du travail",
-    "list": ["Science", "Jeux de société", "Billard", "Cuisine", "Jeux vidéo", "Manga", "Série"]
+    "list": ["Science", "Jeux de société", "Billard", "Cuisine", "Jeux vidéo", "Manga", "Série", "Impression 3D"]
   },
   "footer": {
     "conclusion": "Merci d'avoir pris le temps de consulter mon cv, n'hésitez pas à me contacter !"
