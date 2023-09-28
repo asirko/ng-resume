@@ -40,7 +40,21 @@
     "subtitle": "Où j'ai travaillé",
     "companies": [
       {
-        "period": "Depuis Septembre 2022",
+        "period": "Janvier 2023 - Octobre 2023",
+        "name": "EnerBIM",
+        "job": "Sénior Front-End",
+        "missions": [
+          {
+            "name": "BimWiq - Suite logiciel de dessin industriel (BIM)",
+            "duration": "9 mois",
+            "description": "Application d'estimation de déperdition thermique pour le dimensionnement de PAC",
+            "skills": ["Angular", "CI/CD", "Multi modules", "Gitlab", "Docker", "AWS", "MongoDB"],
+            "isImportant": true
+          }
+        ]
+      },
+      {
+        "period": "Septembre 2022 - Décembre 2022",
         "name": "MYRE",
         "job": "Développeur Lead Tech Front-End",
         "missions": [
@@ -55,8 +69,7 @@
             "name": "Librairie transverse pour les Front-Ends",
             "duration": "1 mois",
             "description": "Coordination de développements d'une librairie transverse de composant réutilisables",
-            "skills": ["Angular", "NgRx", "Figma", "Storybook"],
-            "isImportant": true
+            "skills": ["Angular", "NgRx", "Figma", "Storybook"]
           }
         ]
       },
@@ -137,8 +150,7 @@
             "name": "PidiTools",
             "duration": "3 mois",
             "description": "Application d'aide à la décision pour les techniciens télécom.",
-            "skills": ["AngularJS", "TUA"],
-            "isImportant": true
+            "skills": ["AngularJS", "TUA"]
           },
           {
             "name": "Cariparma",
